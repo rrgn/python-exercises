@@ -1,0 +1,3 @@
+this is the first line
+inside of sample-text.txt
+that completely rewrote sample-text.txt
