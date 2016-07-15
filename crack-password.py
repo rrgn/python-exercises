@@ -7,7 +7,9 @@ target = open('common_words.txt', 'r')
 words = target.read()
 basic_words = words.splitlines( )
 print basic_words
-# for word in words:
+for word in basic_words:
+
+
 #     plaintext_password = word
 #     print plaintext_password
 #     # m = md5.new()
