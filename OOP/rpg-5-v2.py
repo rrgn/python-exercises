@@ -47,7 +47,7 @@ class Hero(Character):
         item.apply(hero)
 
     def attack(self, enemy):
-        double_dmg = random.random() > 0.9
+        double_dmg = r andom.random() > 0.9
         if double_dmg:
             print "%s does a critical hit! Inflicted %s damage." % (self.name, hero.power)
             hero.power  = hero.power * 2
